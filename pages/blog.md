@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: page
 title: Blog
-date: 2011-12-29
 ---
 
 Life blogs.
