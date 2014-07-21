@@ -13,7 +13,7 @@ tagline: a personal blog
   </div>
 </div>
 
-# Welcome
+# Welcome!
 
 <div class="span10">
     <p>I'm a graduate student of biostatistics. This is a website of collection of my life, study and hobbies.</p>
