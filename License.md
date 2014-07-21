@@ -1,4 +1,4 @@
-With out special statement, all the words from this site only represent my ([Ming Yang](http://github.com/askming))personal opinion. Quote is allowed with notification to the author.
+With out special statement, all the words from this site only represent my ([Ming Yang](http://github.com/askming)) personal opinion. Quote is allowed with notification to the author.
 
 Visit the page here: [Askming's site](https://github.com/askming/askming.github.io/).
 
