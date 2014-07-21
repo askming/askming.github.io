@@ -3,6 +3,9 @@ layout: frontpage
 title: Ming Yang
 tagline: a personal blog
 ---
+# Home
+
+Welcome! This is Ming Yang's personal website.
 
 <div class="navbar">
   <div class="navbar-inner">
