@@ -25,11 +25,16 @@ Welcome! This is Ming Yang's personal website.
     <p>If you want to contact me, <a href="mailto:&#116;&#101;&#107;&#107;&#110;&#111;&#108;&#097;&#103;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"> send me an email</a> or find me on <a href="https://twitter.com/tekknolagi">Twitter</a>.</p>
 </div>
 
+<table class="wide">
+<tr>
   <td class="right">
-    <a href="http://www.rqtl.org/book">
+    <a href="http://en.wikipedia.org/wiki/Cowboy_Bebop">
         <img src="assets/pics/spike.jpg" alt="Spike"/>
     </a>
   </td>
+</tr>
+</table>  
+
 
 
 
