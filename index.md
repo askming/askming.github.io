@@ -1,8 +1,14 @@
 ---
-layout: page
-title: askming's site
-tagline: A personal blog
+layout: frontpage
+title: Ming Yang
+tagline: a personal blog
 ---
-## Home
 
-This is my personal website built on [Github Pages](https://pages.github.com). I post my life, thoughts, learning steps here. All the words, without specification, are represent my personal opinion.
+<div class="navbar">
+  <div class="navbar-inner">
+      <ul class="nav">
+          <li><a href="https://github.com/askming">github</a></li>
+          <li><a href="https://twitter.com/kwbroman">@askming</a></li>
+      </ul>
+  </div>
+</div>
