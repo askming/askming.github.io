@@ -29,7 +29,7 @@ Welcome! This is Ming Yang's personal website.
 <tr>
   <td class="right">
     <a href="http://en.wikipedia.org/wiki/Cowboy_Bebop">
-        <img src="..assets/pics/spike.jpg" alt="Spike"/>
+        <img src="..assets/pics/spike.JPG" alt="Spike"/>
     </a>
   </td>
 </tr>
