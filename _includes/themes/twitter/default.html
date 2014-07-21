@@ -39,15 +39,14 @@
             <div class="container-narrow">
                 <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
                 <ul class="nav">
-                    <!-- {{ site.data }} -->
-                    {% assign pages_list = site.data.pages %}
-                    {% assign group = 'navigation' %}
-                    {% include JB/pages_list %}
+                    <li><a href="{{ BASE_PATH }}/pages/about.html">about</a></li>
+                    <li><a href="{{ BASE_PATH }}/pages/blog.html">blog</a></li>
+                    <li><a href="{{ BASE_PATH }}/pages/software.html">computing</a></li>
+                    <li><a href="{{ BASE_PATH }}/pages/notes.html">notes</a></li>
                 </ul>
             </div>
         </div>
     </div>
-
 
     <div class="container-narrow">
 
