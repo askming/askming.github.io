@@ -2,10 +2,14 @@
 layout: page
 title: About
 ---
-### Demographic infomation
-Name: 明
+Name: [明 (míng)](http://zh.wikipedia.org/wiki/明朝)
+
+Born: 1980s
+
 Location: [29.704888, -95.398270]
-Major: biostatistics (2nd year Ph.D. student)
+
+Field study: biostatistics (2nd year Ph.D. student)
+
 Twitter: [@askming](https://twitter.com/askming)
 
 
