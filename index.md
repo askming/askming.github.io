@@ -17,7 +17,7 @@ tagline: a personal blog
 
 Welcome! This is Ming Yang's personal website.
 
-<div class="span6">
+<div class="span10">
     <p>I taught myself how to <a href="http://github.com/tekknolagi">code</a>, and enjoy taking on freelance projects.</p>
     <p>For fun, I read, write, and bike.</p>
     <p>I <a href="http://photos.bernsteinbear.com/post/52445522971">hosted a hackathon</a> and plan on hosting more... they are great fun!</p>
