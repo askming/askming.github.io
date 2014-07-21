@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Notes
+title: Test
 ---
 
-Study notes.
-[site under construction]
+Hello world!
