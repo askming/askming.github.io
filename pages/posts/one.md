@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Notes
+title: First post
 date: 2014-07-21
 ---
 
-Study notes.
-[site under construction]
+First post.
