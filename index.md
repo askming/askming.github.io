@@ -1,19 +1,12 @@
 ---
 layout: page
-title: simple site
-tagline: Easy websites with GitHub Pages
+title: askming's site
+tagline: Personal website of Ming Yang
 ---
+- night of 07/20/204: start up!
+The construction of this website is based on the template of [Kar Broman](http://kbroman.org)'s Github repository, [simple website](https://github.com/kbroman/simple_site).
 
-[Github Pages](http://pages.github.com) provide a simple way to make a
-website using
-[Markdown](https://daringfireball.net/projects/markdown/) and
-[git](http://git-scm.com).
-
-For me, the painful aspects of making a website are
-
-- Working with html and css
-- Finding a hosting site
-- Transferring stuff to the hosting site
+For now, I just copy the files over there and make some changes to my personal info.
 
 With [GitHub Pages](http://pages.github.com), you just write things in
 [Markdown](https://daringfireball.net/projects/markdown/),
