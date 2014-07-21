@@ -5,4 +5,4 @@ title: Blog
 
 #### Posts
 
-[First post](about.html)
+[First post](posts/notes.html)
