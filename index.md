@@ -21,7 +21,7 @@ This is Ming Yang's personal website.
     <p>I'm a graduate student of biostatistics. This is a website of collection of my life, study and hobbies.</p>
     <p>For fun, I read, draw and play sports.</p>
     <p>I am currently working on a top secret app for JMSP, LLC. Coming soon!</p>
-    <p>If you want to contact me, <a href="mailto:&#116;&#101;&#107;&#107;&#110;&#111;&#108;&#097;&#103;&#105;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"> send me an email</a> or find me on <a href="https://twitter.com/askming">Twitter</a>.</p>
+    <p>If you want to contact me, <a href="mailto:askming@gmail.com"> send me an email</a>.</p>
 </div>
 
 <table class="wide">
