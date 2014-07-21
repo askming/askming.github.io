@@ -18,7 +18,7 @@ tagline: a personal blog
 <div class="span10">
     <p>I'm a graduate student of biostatistics. This is a website of my life, studies and hobbies.</p>
     <p>In terms of statistics, I’m interested in Bayesian nonparametrics, longitudianl data analysis (LDA), statistical theories (although I’m terrible at it), etc. </p>
-    <p>I'm curious about new computing techniques and advances and am facinated by the visilization cool stuff. For statistical computing, I’m a <a href="https://www.r-project.org"> R</a> useR and a <a href="https://www.python.org"> Python</a> beginner.</p>
+    <p>I'm interested in new techniques and advances in computer sicicence. For statistical computing, I’m a <a href="https://www.r-project.org"> R</a> useR and a <a href="https://www.python.org"> Python</a> beginner.</p>
     <p>I'm also a <a href="http://www.latex-project.org">LaTeX</a> addict.</p>
     <p>For fun, I read history, write calligraphy, and play sports.</p>
     <p>If you want to contact me, <a href="mailto:askming@gmail.com"> send me an email</a>.</p>
