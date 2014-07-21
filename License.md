@@ -1,7 +1,6 @@
-To the extent possible under law,
-[Karl Broman](http://github.com/kbroman)
-has waived all copyright and related or neighboring rights to
-&ldquo;[simple site](http://github.com/kbroman/simple_site)&rdquo;.
-This work is published from the United States.
+With out special statement, all the words from this site only represent my ([Ming Yang](http://github.com/askming))personal opinion. Quote is allowed with notification to the author.
+
+Visit the page here: [Askming's site](https://github.com/askming/askming.github.io/).
+
 <br/>
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
