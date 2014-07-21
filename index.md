@@ -27,7 +27,7 @@ Welcome! This is Ming Yang's personal website.
 
   <td class="right">
     <a href="http://www.rqtl.org/book">
-        <img src="assets/pubpics/rqtlbook_cover_sm.jpg" alt="Broman and Sen (2009) cover" title="Broman and Sen (2009) cover"/>
+        <img src="assets/pics/spike.jpg" alt="Spike"/>
     </a>
   </td>
 
