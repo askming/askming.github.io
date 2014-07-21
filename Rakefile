@@ -24,7 +24,7 @@ module JB
       :theme_packages => "_theme_packages",
       :posts => "_posts"
     }
-
+    
     def self.base
       SOURCE
     end
@@ -49,7 +49,7 @@ task :post do
   slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
-  rescue => e
+  rescue Exception => e
     puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
     exit -1
   end
@@ -57,12 +57,15 @@ task :post do
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-
+  
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts 'description: ""'
+    post.puts "category: "
+    post.puts "tags: []"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
@@ -95,7 +98,7 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve -w"
+  system "jekyll --auto --server"
 end # task :preview
 
 # Public: Alias - Maintains backwards compatability for theme switching.
@@ -106,7 +109,7 @@ namespace :theme do
   # Public: Switch from one theme to another for your blog.
   #
   # name - String, Required. name of the theme you want to switch to.
-  #        The theme must be installed into your JB framework.
+  #        The the theme must be installed into your JB framework.
   #
   # Examples
   #
