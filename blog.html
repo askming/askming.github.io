@@ -21,6 +21,10 @@ permalink: blog/
 </div>
 -->
 
+
+{% for post in site.posts %}{% unless post.category contains 'twenty' %}{% include JB/single_post %}{% endunless %}
+{% endfor %}
+
 ---
 
 **Site log**
@@ -33,5 +37,3 @@ The construction of this website is based on the template of [Kar Broman](http:/
 
 Spend whole day to build up the struct of this site. *Blog* part is done but *Notes* and *Computing*. Thanks to the resources from [Max Berstin](http://bernsteinbear.com).
 
-{% for post in site.posts %}{% unless post.category contains 'twenty' %}{% include JB/single_post %}{% endunless %}
-{% endfor %}
