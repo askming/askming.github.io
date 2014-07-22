@@ -2,7 +2,6 @@
 layout: page
 title: About
 group: navigation
-permalink: about/
 ---
 {% include JB/setup %}
 [明 (míng)](http://zh.wikipedia.org/wiki/明朝), born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent first 19 years of life there. Later on, moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008), after that hadn one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
