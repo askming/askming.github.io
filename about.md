@@ -4,6 +4,7 @@ title: About
 group: navigation
 permalink: about/
 ---
+{% include JB/setup %}
 Born: 1980s
 
 Name: [明 (míng)](http://zh.wikipedia.org/wiki/明朝)
