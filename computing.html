@@ -7,3 +7,8 @@ permalink: computing/
 blog_page: false
 ---
 {% include JB/setup %}
+
+
+
+{% for post in site.computing %}{% unless post.category contains 'twenty' %}{% include JB/single_post %}{% endunless %}
+{% endfor %}
