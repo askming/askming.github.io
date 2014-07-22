@@ -81,11 +81,7 @@ JB :
   #
   comments :
     provider : disqus
-    google: 
-        tracking_id: UA-26440738-1
-        domain: bernsteinbear.com
 
-   
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
