@@ -15,7 +15,9 @@ Current location: [29.704888, -95.398270]
 
 Field study: biostatistics (2nd year Ph.D. student)
 
-Twitter: [@askming](https://twitter.com/askming)
+<a href="https://twitter.com/askming">
+    <img src="assets/icon/twitter.png" alt="Twitter"/>
+</a> : [@askming](https://twitter.com/askming)
 
 Instagram: [askming](http://instagram.com/askming)
 
