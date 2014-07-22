@@ -81,6 +81,8 @@ JB :
   #
   comments :
     provider : disqus
+    disqus :
+	short_name : askming
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
