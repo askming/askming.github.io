@@ -28,6 +28,6 @@ Current location: [29.704888, -95.398270](https://www.google.com/maps/place/Univ
 
   <td class="center">
     <a href="lishui">
-        <img src="assets/pics/lishui.jpg" alt="Lishui" height="230" width="750"/>
+        <img src="lishui.jpg" alt="Lishui" height="230" width="750"/>
     </a>
   </td>
