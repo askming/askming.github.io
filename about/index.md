@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
+title: A very brief biography
 group: navigation
 ---
 {% include JB/setup %}
-[明 (míng)](http://zh.wikipedia.org/wiki/明朝), born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent first 19 years of life there. Later on, moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008), after that hadn one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
+I'm [明 (míng)](http://zh.wikipedia.org/wiki/明朝), I was born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent the first 19 years of my life there. Later on, I moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008), after that I had one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
 
-Came to USA in August 2010 and became a graduate student in biostatistics till now, hoping to graduate next year with a degree of Ph.D.
-
-Current location: [29.704888, -95.398270](https://www.google.com/maps/place/University+of+Texas+School+of+Public+Health,+Houston,+TX+77030/@29.7050985,-95.3981681,17z/data=!3m1!4b1!4m2!3m1!1s0x8640c0748c07216d:0x8c26abef6a5bd560)
-
+I Came to USA in August 2010 to pursue my graduate study in biostatistics till now, I'm hoping to graduate next year with Ph.D degree.
 
 <div>
     <style>.ig-b- { display: inline-block; }
@@ -24,7 +21,7 @@ Current location: [29.704888, -95.398270](https://www.google.com/maps/place/Univ
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 ---
-
+A panoramic view of my hometown. 
   <td class="center">
     <a href="lishui.jpg">
         <img src="lishui.jpg" alt="Lishui" height="230" width="750"/>
