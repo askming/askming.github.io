@@ -5,15 +5,12 @@ group: navigation
 permalink: about/
 ---
 {% include JB/setup %}
-Born: 1980s
+[明 (míng)](http://zh.wikipedia.org/wiki/明朝) born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent first 19 years of life there. Later on, moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008) after that was one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
 
-Name: [明 (míng)](http://zh.wikipedia.org/wiki/明朝)
-
-Hometown: [浙江麗水](http://zh.wikipedia.org/zh-hant/丽水市)
+In 2010 came to USA and became a graduate student in biostatistics till now, hoping to graduate next year with a degree of Ph.D.
 
 Current location: [29.704888, -95.398270]
 
-Field study: biostatistics (2nd year Ph.D. student)
 
 <div>
     <style>.ig-b- { display: inline-block; }
