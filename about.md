@@ -24,15 +24,4 @@ Current location: [29.704888, -95.398270](https://www.google.com/maps/place/Univ
     <a href="https://twitter.com/askming" class="twitter-follow-button" data-show-count="false">Follow @askming</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
-
-
 ---
-**Site log**
-
-- 07/20/2014 night: start up!
-
-    The construction of this website is based on the template of [Kar Broman](http://kbroman.org)'s Github repository, [simple website](https://github.com/kbroman/simple_site) and other resouces. Thanks to them!
-
-- 07/21/2014
-
-    Spend whole day to build up the struct of this site. *Blog* part is done but *Notes* and *Computing*. Thanks to the resources from [Max Berstin](http://bernsteinbear.com).
