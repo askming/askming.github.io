@@ -28,7 +28,7 @@ tagline: a personal blog
 <tr>
   <td class="right">
     <a href="http://en.wikipedia.org/wiki/Cowboy_Bebop">
-        <img src="assets/pics/spike2.jpg" alt="Spike"/>
+        <img src="assets/pics/spike2.jpg" alt="Spike" height="400" width="300"/>
     </a>
   </td>
 </tr>
