@@ -17,6 +17,8 @@ Field study: biostatistics (2nd year Ph.D. student)
 
 Twitter: [@askming](https://twitter.com/askming)
 
+Instagram: [askming](http://instagram.com/askming)
+
 ---
 **Site log**
 
