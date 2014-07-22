@@ -10,8 +10,6 @@ relative_permalinks: true
 permalink : '/blog/:title'
 post_dirs : false
 
-permalink : ‘/computing/:title'
-post_dirs : false
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
