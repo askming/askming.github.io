@@ -15,7 +15,7 @@ tagline: a personal blog
 
 # Welcome!
 
-<div class="span10">
+<div class="span8">
     <p>I'm a graduate student of biostatistics. This is a website of my life, studies and hobbies.</p>
     <p>In terms of statistics, I’m interested in Bayesian nonparametrics, longitudianl data analysis (LDA), statistical theories (although I’m terrible at it), etc. </p>
     <p>I'm interested in new techniques and advances in computer sicicence. For statistical computing, I’m a <a href="https://www.r-project.org"> R</a> useR and a <a href="https://www.python.org"> Python</a> beginner.</p>
@@ -28,7 +28,7 @@ tagline: a personal blog
 <tr>
   <td class="right">
     <a href="http://en.wikipedia.org/wiki/Cowboy_Bebop">
-        <img src="assets/pics/spike2.jpg" alt="Spike" height="100" width="75"/>
+        <img src="assets/pics/spike2.jpg" alt="Spike" height="200" width="150"/>
     </a>
   </td>
 </tr>
