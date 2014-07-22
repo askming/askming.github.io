@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: frontpage
 title: Blog
 ---
 
 #### Posts
-
-[First post](posts/one.html)
+<a href="pages/posts/one.html">
+First post</a>
