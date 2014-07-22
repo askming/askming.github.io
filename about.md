@@ -5,11 +5,11 @@ group: navigation
 permalink: about/
 ---
 {% include JB/setup %}
-[明 (míng)](http://zh.wikipedia.org/wiki/明朝) born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent first 19 years of life there. Later on, moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008) after that was one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
+[明 (míng)](http://zh.wikipedia.org/wiki/明朝), born in 1980s in [浙江麗水(Líshuǐ)](http://zh.wikipedia.org/zh-hant/丽水市) and spent first 19 years of life there. Later on, moved to the city of [厦門 (Xiàmén)](http://en.wikipedia.org/wiki/厦门)(known as Amoy) for undergraduate study (2004 -- 2008), after that hadn one-year working experience in LG Electronics Xiamne Branch (2008 -- 2009).
 
-In 2010 came to USA and became a graduate student in biostatistics till now, hoping to graduate next year with a degree of Ph.D.
+Came to USA in August 2010 and became a graduate student in biostatistics till now, hoping to graduate next year with a degree of Ph.D.
 
-Current location: [29.704888, -95.398270]
+Current location: [29.704888, -95.398270](https://www.google.com/maps/place/University+of+Texas+School+of+Public+Health,+Houston,+TX+77030/@29.7050985,-95.3981681,17z/data=!3m1!4b1!4m2!3m1!1s0x8640c0748c07216d:0x8c26abef6a5bd560)
 
 
 <div>
