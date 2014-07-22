@@ -9,7 +9,7 @@ Born: 1980s
 
 Name: [明 (míng)](http://zh.wikipedia.org/wiki/明朝)
 
-Hometown: [麗水](http://zh.wikipedia.org/zh-hant/丽水市)
+Hometown: [浙江麗水](http://zh.wikipedia.org/zh-hant/丽水市)
 
 Current location: [29.704888, -95.398270]
 
