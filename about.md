@@ -15,11 +15,11 @@ Current location: [29.704888, -95.398270]
 
 Field study: biostatistics (2nd year Ph.D. student)
 
-<a href="https://twitter.com/askming">
+<a href="https://twitter.com">
     <img src="assets/icon/twitter.png" alt="Twitter" height="16" width="16"/>
 </a> : [@askming](https://twitter.com/askming)
 
-<a href="https://instagram.com/askming">
+<a href="https://instagram.com">
     <img src="assets/icon/insta.png" alt="instagram" height="16" width="16"/>
 </a> : [askming](http://instagram.com/askming)
 
