@@ -25,3 +25,9 @@ Current location: [29.704888, -95.398270](https://www.google.com/maps/place/Univ
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </div>
 ---
+
+  <td class="center">
+    <a href="http://en.wikipedia.org/wiki/Cowboy_Bebop">
+        <img src="assets/pics/lishui.jpg" alt="Lishui" height="750" width="2300"/>
+    </a>
+  </td>
