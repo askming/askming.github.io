@@ -19,7 +19,9 @@ Field study: biostatistics (2nd year Ph.D. student)
     <img src="assets/icon/twitter.png" alt="Twitter" height="16" width="16"/>
 </a> : [@askming](https://twitter.com/askming)
 
-Instagram: [askming](http://instagram.com/askming)
+I<a href="https://instagram.com/askming">
+    <img src="assets/icon/insta.png" alt="instagram" height="16" width="16"/>
+</a> : [askming](http://instagram.com/askming)
 
 ---
 **Site log**
