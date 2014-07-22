@@ -4,5 +4,5 @@ title: Blog
 ---
 
 #### Posts
-<a href="pages/posts/one.html">
+<a href="posts/one.html">
 First post</a>
