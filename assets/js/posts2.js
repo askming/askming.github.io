@@ -7,7 +7,7 @@
  * Bernstein Bear: http://bernsteinbear.com
  */
 
-window.posts = [];
+window.cposts = [];
 window.baseUrl = '/computing/#/';
 
 var PostList = function PostListF () {
