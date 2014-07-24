@@ -7,7 +7,7 @@
  * Bernstein Bear: http://bernsteinbear.com
  */
 
-window.cposts = [];
+window.posts2 = [];
 window.baseUrl = '/computing/#/';
 
 var PostList = function PostListF () {
@@ -62,8 +62,8 @@ var appendPosts = function appendPostsF (postList) {
 
 $(document).ready(function () {
     $.getJSON("/posts.json").success(function (data) {
-	window.posts = data;
-	appendPosts(window.posts);
+	window.posts2 = data;
+	appendPosts(window.posts2);
 
 	routie({
 	    "": PostList,
