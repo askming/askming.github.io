@@ -1,5 +1,0 @@
-<a href="{{ https://askming.github.io/posts2}}{{ post.url }}">{{ post.title }}</a>
-<br />
-<span>{{ post.date | date: "%B %e, %Y" }}</span>
-<br />
-<br />

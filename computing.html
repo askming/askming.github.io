@@ -22,7 +22,7 @@ permalink: computing/
 -->
 
 
-{% for post in site.posts2 %}{% unless post.category contains 'twenty' %}{% include JB/single_post2 %}{% endunless %}
+{% for post in site.posts %}{% unless post.category contains 'twenty' %}{% include JB/single_post %}{% endunless %}
 {% endfor %}
 
 
