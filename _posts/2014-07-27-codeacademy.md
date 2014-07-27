@@ -10,5 +10,7 @@ slug: blog
 
 
 <div>
-<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp/img/make-a-website.svg" height="200" width="200">
+<a href="http://www.codecademy.com/en/skills/make-a-website">
+<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp/img/make-a-website.svg" height="20" width="20">
+</a>
 </div>
