@@ -9,8 +9,8 @@ slug: blog
 "Make a Website" introduces the basic knowledge of HTML, CSS and Bootstrap. Since I'm a beginner on HTML+ CSS and am trying to build up this website, this course answers many questiones that I had during this process and I try to implement some of the basics to personalized this website.
 
 
-<div>
+<div align="center">
     <a href="http://www.codecademy.com/en/skills/make-a-website">
-    <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp/img/make-a-website.svg" height="60" width="60" alt="Make a Website" align="middle">
+    <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp/img/make-a-website.svg" height="60" width="60" alt="Make a Website">
     </a>
 </div>
