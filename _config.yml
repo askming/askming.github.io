@@ -9,7 +9,7 @@ kramdown:
     enable_coderay: false
     auto_ids: true
     entity_output: symbolic
-highlighter: null
+pygments: null
 
 exclude:
     - bower_components
