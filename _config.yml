@@ -21,6 +21,7 @@ gems:      []
 # Outputting
 permalink:     date
 paginate_path: /page:num
+paginate: 1
 timezone:      null
 
 quiet:    false
