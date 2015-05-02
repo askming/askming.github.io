@@ -1,7 +1,7 @@
 ---
-layout:default
+layout: default
 ---
 
 # Home
 
-This is home page
+This home page
