@@ -1,0 +1,10 @@
+name: "askming"
+description: "Ming's personal site"
+
+url: "http://askming.github.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
