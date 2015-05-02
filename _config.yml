@@ -1,3 +1,5 @@
+name: "askming"
+description: "Hello, World!"
 # Where things are
 source:      .
 destination: ./_site
