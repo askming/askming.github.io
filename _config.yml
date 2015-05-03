@@ -20,8 +20,8 @@ gems:      []
 
 # Outputting
 permalink:     date
-paginate_path: /page:num
-paginate: 1
+paginate_path: "blog/page:num/"
+paginate: 5
 timezone:      null
 
 quiet:    false
