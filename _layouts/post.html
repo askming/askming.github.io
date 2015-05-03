@@ -3,9 +3,10 @@
 
 <div class="row-fluid">
   <div class="span8">
-    <h1>{{ page.title }}</h1>
+    <h2>{{ page.title }}</h2>
+    <p class="author">{{ page.post_author }}</p>
     <p class="muted">{{ page.date | date_to_long_string }}</p>
-
+    <p class="tags">{{ page.tags }}</p>
     {{ content }}
   </div>
   <div class="span4">
@@ -15,7 +16,7 @@
 
 <div class="row-fluid">
   <div class="span8">
-  <p> <a href="/blog">Back</a> </p>
+  <p> <a href="/blog">Back to list</a> </p>
   </div>
 </div>
 

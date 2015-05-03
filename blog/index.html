@@ -1,19 +1,21 @@
 ---
 layout: default
 ---
-
-{% for post in paginator.posts %}
 <div class="row-fluid">
-  <div class="span6">
-    <h2>{{ post.title | truncatewords: 10 | capitalize }}</h2>
+  <div class="span7">
+{% for post in paginator.posts %}
+    <h2>{{ post.title | truncatewords: 10 | Capitalize }}</h2>
     <h4>{{ post.date | date_to_long_string }}</h4>
-    <span class="list_content">{{ post.content | strip_html | truncatewords:35}}</span> 
+    <span class="list_content">{{ post.content | strip_html | truncatewords:20}}</span> 
     <p>
       <a href="{{ post.url }}">Read More</a>
     </p>
-  </div>
-</div>
 {% endfor %}
+  </div>
+  <div class="span5">
+    <img src="/images/blog.jpg" height="333" width="328" />
+  </div> 
+</div>
 
 <div class="row-fluid">
   <div class="span12">
