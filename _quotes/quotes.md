@@ -1,6 +1,6 @@
 ---
 title: Quotes
-layout: quotes
+<!--layout: default-->
 ---
 > Hello, World!
 
@@ -24,7 +24,9 @@ layout: quotes
 >
 > <div align="right"><i>-- 李叔同 ⎡送别⎦</i></div>
 
-
+> In order to seek truth it is necessary once in the course of our life to doubt as far as possible all things. 
+> 
+>  <div align="right"><i>--Rene Descartes</i></div>
 
 
 
