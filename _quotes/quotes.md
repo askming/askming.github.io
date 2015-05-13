@@ -27,8 +27,10 @@ title: Quotes
 > In order to seek truth it is necessary once in the course of our life to doubt as far as possible all things. 
 > 
 >  <div align="right"><i>--Rene Descartes</i></div>
->  
->  夫天地者，万物之逆旅也；光阴者，百代者过客也；而浮生若梦，为欢几何？
+
+
+>
+  夫天地者，万物之逆旅也；光阴者，百代者过客也；而浮生若梦，为欢几何？
 >  
 >  <div align="right"><i>--李白《春夜宴从弟桃花园序》</i></div>
 
