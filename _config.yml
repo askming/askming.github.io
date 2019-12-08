@@ -31,8 +31,16 @@ github_username:  askming
 
 # Build settings
 theme: minima
+# theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
+
+# Disqus Comments
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: askming-1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
