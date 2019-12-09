@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: askming's site
+title: ask -> ming
 email: askming@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -37,7 +37,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 2
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 # Disqus Comments

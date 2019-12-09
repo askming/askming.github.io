@@ -1,18 +1,14 @@
 ---
 layout: page
-title: About
+title: "@askming"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## The history of `askming`
+I came up with this user name long time ago - probably when I was in college, trying to find myself an novel and easy to remember email account name. Ever since, I have been using it as my online identity: blog, google acounts, twitter, IG, etc.
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+
+
+
