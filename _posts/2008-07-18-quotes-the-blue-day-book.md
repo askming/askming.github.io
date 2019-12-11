@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some nice quotes from “The Blue Day Book”"
+title: "Some nice quotes from “The Blue Day Book"
 categories: life
 ---
 
