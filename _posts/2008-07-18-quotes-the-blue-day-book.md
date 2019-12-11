@@ -28,7 +28,7 @@ categories: life
 
 *最近生活变化很大，顿时感觉世界变了。从校园出来，进入社会工作……给Sandy发邮件交流近况，她回了很长的邮件。最后还给我摘录上面的一些语录，谢谢Sandy...*
 
-$\leftarrow$ *Picture: Powell Library at UCLA by Sandy Ong*
+$\leftarrow$ *Powell Library at UCLA picture by Sandy Ong*
 
 
 *注：本篇自blogspot迁移而来。*
