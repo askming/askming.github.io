@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My first Apple laptop"
-categories: life, memory
+tags: life memory
 ---
 
 自己也不知从什么时候开始就成为了一名伪果粉，对所有的苹果产品有一种说不清的迷之向往。iPod nano早已经收入囊中，它让我把之前钟爱的CD播放器冷落一旁。但要说最想拥有的苹果产品还属Macbook系列，因为它简直是心中完美笔记本电脑的典范。可是那高昂的价格却轻松让我等穷学生与之绝缘。

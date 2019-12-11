@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Some nice quotes from “The Blue Day Book"
-categories: life
+tags: life
 ---
 
 

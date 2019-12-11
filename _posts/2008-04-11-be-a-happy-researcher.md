@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "做一个“幸福”的实验人..."
-categories: life
+tags: life
 ---
 
 今天上厕所时候突然想到海子的那首诗：

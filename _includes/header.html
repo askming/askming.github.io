@@ -18,7 +18,7 @@
         </label>
 
         <div class="trigger">
-          {%- assign page_names = "" -%}
+          {%- assign page_names = "Tag: life" | split: ',' -%}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if page_names contains my_page.title -%}

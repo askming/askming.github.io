@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LGE培训"
-categories: life
+tags: life
 ---
 
 

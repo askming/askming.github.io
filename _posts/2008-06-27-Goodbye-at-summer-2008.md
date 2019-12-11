@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "分别2008之夏"
-categories: life, memory
+tags: life, memory
 ---
 
 
