@@ -1,3 +1,3 @@
 ## Personal website
 
-Built on Jekyll.
+Personal blog built on github pages with Jekyll.
