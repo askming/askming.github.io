@@ -95,7 +95,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $base-font-weight + 200;
 }
 
 
@@ -227,12 +227,12 @@ pre {
 }
 
 .svg-icon {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   fill: currentColor;
   padding: 5px 3px 2px 5px;
-  vertical-align: text-bottom;
+  vertical-align: middle
 }
 
 

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "分别2008之夏"
-tags: life, memory
+tags: life memory
+excerpt_separator: <!--more-->
 ---
 
-
 分别来的太快，我现在还没晃过神来。
+<!--more-->
 
 夏日，窗外艳阳高照，知了的叫声不让人睡一个安稳的午觉。仔细想来，能在这个宿舍住的日子也屈指可数了...
 

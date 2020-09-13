@@ -17,7 +17,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.1.7)
     dnsruby (1.61.3)
       addressable (~> 2.5)
     em-websocket (0.5.1)
@@ -34,8 +34,8 @@ GEM
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
     fastimage (2.1.7)
-    ffi (1.12.2)
-    ffi (1.12.2-x64-mingw32)
+    ffi (1.13.1)
+    ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
     fspath (3.1.2)
     gemoji (3.0.1)
@@ -312,7 +312,7 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   mini_magick
-  minima (~> 2.5)
+  minima (~> 2.5.1)
   sass
   sprockets
   tzinfo (~> 1.2)

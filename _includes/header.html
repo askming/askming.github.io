@@ -18,15 +18,11 @@
         </label>
 
         <div class="trigger">
-          {%- assign page_names = "Tag: life" | split: ',' -%}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if page_names contains my_page.title -%}
-            {%- else -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- assign page_names = my_page.title | append: page_names -%}
-            {%- endif -%}
           {%- endfor -%}
+            <a href="{{ 'feed.xml' | relative_url }}" title="{{ social.rss | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/rss.svg#rss' | relative_url }}"></use></svg></a>
         </div>
       </nav>
     {%- endif -%}

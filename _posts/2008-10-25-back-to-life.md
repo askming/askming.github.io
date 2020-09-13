@@ -2,14 +2,12 @@
 layout: post
 title: "回归生活"
 tags: life
+excerpt_separator: <!--more-->
 ---
 
-<!-- <img src="https://4.bp.blogspot.com/_eKfS7JdBjhc/SQMYZEzOzeI/AAAAAAAAAhY/da2ZAwngc1Y/s320/DSC00043.jpg"
-     alt="wuyi Mountain"
-     style="float: left; margin-right: 10px;" />
- -->
-
 ![](https://4.bp.blogspot.com/_eKfS7JdBjhc/SQMYZEzOzeI/AAAAAAAAAhY/da2ZAwngc1Y/s320/DSC00043.jpg)
+
+<!--more-->
 
 昨天从福州回到厦门。
 

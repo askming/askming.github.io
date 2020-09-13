@@ -1,0 +1,26 @@
+---
+layout: default
+title: tags
+---
+
+<!-- <div align = "right">
+  <p class="feed-subscribe">  <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span></a></p>
+</div> -->
+
+<section class="blog tags">
+  <div class="wrap">
+    <h2> Tags </h2>
+    {% for tag in site.tags %}
+      {% for t in tag[0] %}
+        <a><code class="highligher-rouge"><nobr>{{ t }}</nobr></code>&nbsp;</a>
+        <!-- <h3> {{ t }} </h3> -->
+        {% for post in site.tags[t] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+            {{ post.description }}
+          </li>
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
+

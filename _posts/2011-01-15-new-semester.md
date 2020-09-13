@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "New semester feels like a totally different life"
+title: "New semester"
 tags: life USA
+excerpt_separator: <!--more-->
 ---
 
-It's a long time since last time I posted a blog -- even can't recall what I wrote last time.
+It's a long time since last time I posted a blog.
+<!--more-->
 
 This is not because I'm tired of blogging but of the limited time and energy. My life is not super busy but all the time the chores can keep you distracted and you can hardly focus on one thing.
 

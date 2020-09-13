@@ -1,3 +1,3 @@
-## Person website project
+## Personal website
 
-Learning to use Jekyll, building functionalities little by little.
+Built on Jekyll.
