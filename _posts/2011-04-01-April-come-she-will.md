@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New semester"
+title: "April come she will"
 tags: life USA
 excerpt_separator: <!--more-->
 comments: true
@@ -14,8 +14,8 @@ comments: true
 > When streams are ripe and swelled with rain;
 > May, she will stay,
 > Resting in my arms again
->
->  <!--more-->
+
+ <!--more-->
 
 >  June, she'll change her tune,
 > In restless walks she'll prowl the night;
