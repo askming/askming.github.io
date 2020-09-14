@@ -5,6 +5,7 @@ permalink: /about/
 ---
 {%- assign social = site.minima.social_links -%}
 {%- include latex.html -%}
+{%- include customfonts.html -%}
 
 ## about me
 
