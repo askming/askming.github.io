@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "April come she will"
-tags: life USA
+tags: music
 excerpt_separator: <!--more-->
 comments: true
 ---
