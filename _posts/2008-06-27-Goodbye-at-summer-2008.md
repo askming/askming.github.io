@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "分别2008之夏"
+title: "2008分别之夏"
 tags: life memory
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 分别来的太快，我现在还没晃过神来。
@@ -22,4 +23,4 @@ excerpt_separator: <!--more-->
 
 现在我要和我的同学们分别了，我也将和伴随了自己16年的学生生涯说再见了。
 
-*注：本篇自blogspot迁移而来。*
+{%- include disque.html -%}

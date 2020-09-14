@@ -3,6 +3,7 @@ layout: post
 title: "LGE培训"
 tags: life
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 *2008/9/27, 18:22 补记。*
@@ -33,3 +34,7 @@ excerpt_separator: <!--more-->
 - 个人成绩第二，出乎意料，人品不错啊~总算是没有被上司的压力压倒……
 
 培训就记以上这些。
+
+
+
+{%- include disque.html -%}

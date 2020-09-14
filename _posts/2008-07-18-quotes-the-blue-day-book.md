@@ -3,6 +3,7 @@ layout: post
 title: "Some nice quotes from “The Blue Day Book"
 tags: life
 excerpt_separator: <!--more-->
+comments: true
 ---
 
 > You will find that there is always beauty and hope in even the most awful circumstance.
@@ -33,4 +34,5 @@ excerpt_separator: <!--more-->
 $\leftarrow$ *Powell Library at UCLA picture by Sandy Ong*
 
 
-*注：本篇自blogspot迁移而来。*
+
+{%- include disque.html -%}
