@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-
-<!-- <div align = "right">
-  <p class="feed-subscribe">  <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span></a></p>
-</div> -->
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Ramaraja&family=Rock+Salt&display=swap" rel="stylesheet">
 
 <section class="blog single">
 
@@ -29,7 +26,10 @@ layout: default
         {%- if id == 1 -%}
           {{ post.content }}
         {%- elsif id > 1 -%}
-          {{ post.excerpt }}
+          <div class="blog-post__content">
+            <p>{{ post.excerpt }}</p>
+            <p><a href="{{ post.url }}" class="button">Read More...</a>
+          </div>
         {%- endif -%}
       </li>
       {%- endfor -%}

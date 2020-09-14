@@ -40,9 +40,17 @@ $on-large:         $on-laptop !default;
   font-size: $base-font-size * $ratio;
 }
 
+@font-face{
+  font-family: 'Rock Salt', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'ramaraja', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Ramaraja&family=Rock+Salt&display=swap");
+}
+
 // Import pre-styling-overrides hook and style-partials.
 @import
   "custom-variables", // Hook to override predefined variables.
   "base",             // Defines element resets.
   "layout"            // Defines structure and style based on CSS selectors.
 ;
+

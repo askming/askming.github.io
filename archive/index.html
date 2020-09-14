@@ -3,12 +3,11 @@ layout: default
 title: archive
 ---
 
-<!-- <div align = "right">
-  <p class="feed-subscribe">  <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span></a></p>
-</div> -->
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Ramaraja&family=Rock+Salt&display=swap" rel="stylesheet">
 
 <section class="blog single">
   <div class="wrap">
+    
     <h2> Year After Year</h2>
     {%- for post in site.posts limit:1 -%}
       {%- assign year = post.date | date: "%Y" | minus: 1 -%}
@@ -23,21 +22,17 @@ title: archive
             <!-- <span class="blog-post__subtitle">{{ post.date | date_to_long_string }}</span> -->
             {% assign current_year = post.date | date: "%Y" %}
             {% if year != current_year %}
-              <span class="blog-post__subtitle">{{ post.date | date: "%Y" }}</span>
+            <br />
+             <h3> <span class="blog-post__subtitle">{{ post.date | date: "%Y" }}</span> </h3>
               {%- assign year = current_year -%}
             {% endif %}
-            <h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <li class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></li>
           </div>
 
           {% if post.featured_image %}
           <a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
           {% endif %}
-
-          <!-- <div class="blog-post__content">
-            <p>{{ post.excerpt }}</p>
-            <p><a href="{{ post.url }}" class="button">Read More</a>
-          </div> -->
-
+          
         </article>
       {% endif %}
     {% endfor %}
@@ -66,8 +61,3 @@ title: archive
 
 {% endif %}
 
-<!-- <br>
-
-<div align = "right">
-  <p class="feed-subscribe">  <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span></a></p>
-</div> -->
