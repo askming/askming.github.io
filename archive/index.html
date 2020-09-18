@@ -1,0 +1,63 @@
+---
+layout: default
+title: archive
+---
+
+{%- include customfonts.html -%}
+
+<section class="blog single">
+  <div class="wrap">
+    
+    <h2> Year After Year</h2>
+    {%- for post in site.posts limit:1 -%}
+      {%- assign year = post.date | date: "%Y" | minus: 1 -%}
+    {%- endfor -%}
+
+    {% for post in paginator.posts %}
+      {% if post.skip_from_archives != true %}
+
+        <article class="blog-post">
+
+          <div class="blog-post__header">
+            <!-- <span class="blog-post__subtitle">{{ post.date | date_to_long_string }}</span> -->
+            {% assign current_year = post.date | date: "%Y" %}
+            {% if year != current_year %}
+            <br />
+             <h3> <span class="blog-post__subtitle">{{ post.date | date: "%Y" }}</span> </h3>
+              {%- assign year = current_year -%}
+            {% endif %}
+            <li class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></li>
+          </div>
+
+          {% if post.featured_image %}
+          <a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
+          {% endif %}
+          
+        </article>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+  {% if paginator.previous_page %}
+  <span class="pagination__prev", style = "margin-right: 71.6%">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><svg aria-hidden="true" style="width:1rem;height:1rem;vertical-align:text-bottom;line-height:1;" focusable="false" data-prefix="fas" data-icon="angle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-left fa-w-8 fa-3x"><path fill="currentColor" d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" class=""></path></svg></i> <span>Newer Posts</span></a>
+  </span>
+  {% endif %}
+
+
+  {% if paginator.next_page %}
+  <span class="pagination__next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <svg aria-hidden="true" style="width:1rem;height:1rem;vertical-align:text-bottom;line-height:1;" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-angle-right fa-w-8 fa-3x"><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" class=""></path></svg></a>
+  </span>
+  {% endif %}
+
+</section>
+
+{% endif %}
+

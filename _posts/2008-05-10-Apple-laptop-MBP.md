@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "My first Apple laptop"
+title: "Macbook Pro"
 tags: life memory
+excerpt_separator: <!--more-->
+comments: true
 ---
 
 自己也不知从什么时候开始就成为了一名伪果粉，对所有的苹果产品有一种说不清的迷之向往。iPod nano早已经收入囊中，它让我把之前钟爱的CD播放器冷落一旁。但要说最想拥有的苹果产品还属Macbook系列，因为它简直是心中完美笔记本电脑的典范。可是那高昂的价格却轻松让我等穷学生与之绝缘。
+
+<!--more-->
 
 即使如此依然不依不饶，朝思暮想，正所谓得不到的才是最好的吧。不知不觉着魔很久，从不敢想象这美梦还真有实现的一天。以至于今天这梦寐以前的Macbook Pro竟然真真切切地抱在我的手里时，却突然有一种极其强烈的不真实感在涌入大脑 -- 我不是在做梦吧？
 
@@ -12,5 +16,5 @@ tags: life memory
 
 有愧于自己的过渡消费，感谢阿贝的无私赞助。
 
+{%- include disque.html -%}
 
-*注：本文改自原blogspot某篇。*

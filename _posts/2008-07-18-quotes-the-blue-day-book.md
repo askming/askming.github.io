@@ -2,12 +2,15 @@
 layout: post
 title: "Some nice quotes from “The Blue Day Book"
 tags: life
+excerpt_separator: <!--more-->
+comments: true
 ---
-
 
 > You will find that there is always beauty and hope in even the most awful circumstance.
 > There is always someone prepared to help those who ask.
 > And there are a million special moments that can chase the shadows from your face in an instant and will cost you nothing but a few spare moments.
+
+<!--more-->
 
 > It’s no surprise that when they think about the future, a lot of people feel anxious, somewhat depressed, and generally confused and alarmed. A far more reasonable approach is simply to put on the bravest smile you’ve got and admit that you are not the centre of the known universe. Therefore, there will always be things you don’t know and can’t control. So when it’s simply not your day and things get a little out of hand, as they invariably do from time to time, it’s much more productive and far healthier to just sit back and enjoy the absurdity of the moment.
 
@@ -31,4 +34,6 @@ tags: life
 $\leftarrow$ *Powell Library at UCLA picture by Sandy Ong*
 
 
-*注：本篇自blogspot迁移而来。*
+
+{%- include disque.html -%}
+

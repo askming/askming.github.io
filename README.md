@@ -1,3 +1,4 @@
-## Person website project
+## Personal website
 
-Learning to use Jekyll, building functionalities little by little.
+Personal blog built on github pages with Jekyll.
+

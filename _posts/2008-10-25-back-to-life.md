@@ -2,14 +2,13 @@
 layout: post
 title: "回归生活"
 tags: life
+excerpt_separator: <!--more-->
+comments: true
 ---
 
-<!-- <img src="https://4.bp.blogspot.com/_eKfS7JdBjhc/SQMYZEzOzeI/AAAAAAAAAhY/da2ZAwngc1Y/s320/DSC00043.jpg"
-     alt="wuyi Mountain"
-     style="float: left; margin-right: 10px;" />
- -->
-
 ![](https://4.bp.blogspot.com/_eKfS7JdBjhc/SQMYZEzOzeI/AAAAAAAAAhY/da2ZAwngc1Y/s320/DSC00043.jpg)
+
+<!--more-->
 
 昨天从福州回到厦门。
 
@@ -26,3 +25,6 @@ tags: life
 此时正在水声通信实验室霸占ZEUS同学的网口来上网；大把大把滴搜刮校园网里的GA,HEROES,HOUSE以及他们的OST。再次感慨GA的原声音乐，我是所听过所有的美剧原声当中最精挑细选和值得品味的。放上一首最近反复听的来吧～
 
 {% include youtubePlayer.html id="c9QNRvXH1HI" %}
+
+{%- include disque.html -%}
+

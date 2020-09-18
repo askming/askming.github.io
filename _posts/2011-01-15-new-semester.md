@@ -1,10 +1,14 @@
 ---
 layout: post
-title: "New semester feels like a totally different life"
+title: "New semester"
 tags: life USA
+excerpt_separator: <!--more-->
+comments: true
 ---
 
-It's a long time since last time I posted a blog -- even can't recall what I wrote last time.
+
+It's a long time since last time I posted a blog.
+<!--more-->
 
 This is not because I'm tired of blogging but of the limited time and energy. My life is not super busy but all the time the chores can keep you distracted and you can hardly focus on one thing.
 
@@ -17,3 +21,6 @@ The first week of the spring semester has just pasted away. This semester I luck
 Not only the study, yesterday I move into another apartment, share it with another Chinese student here. So actually my life has totally changed in this semester!
 
 Right now sitting in the dark room with only my lamp on, I'm thinking about the passed week,nothing makes me feel good. I don't feel comfortable of this new life right now. I am and going to do some adjustment to it. Hope things will turn out to be better very soon.
+
+{%- include disque.html -%}
+

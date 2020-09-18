@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "分别2008之夏"
-tags: life, memory
+title: "2008分别之夏"
+tags: life memory
+excerpt_separator: <!--more-->
+comments: true
 ---
 
-
 分别来的太快，我现在还没晃过神来。
+<!--more-->
 
 夏日，窗外艳阳高照，知了的叫声不让人睡一个安稳的午觉。仔细想来，能在这个宿舍住的日子也屈指可数了...
 
@@ -21,4 +23,5 @@ tags: life, memory
 
 现在我要和我的同学们分别了，我也将和伴随了自己16年的学生生涯说再见了。
 
-*注：本篇自blogspot迁移而来。*
+{%- include disque.html -%}
+
