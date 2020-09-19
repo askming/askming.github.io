@@ -26,4 +26,7 @@ $$
 \sim \text{life} = \int_{\text{birth}}^{\text{death}} \text{study} dt \sim
 $$
 
+<br />
+<br />
+
 {%- include disque.html -%}
