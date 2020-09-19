@@ -2,6 +2,7 @@
 layout: default
 title: "about"
 permalink: /about/
+comments: true
 ---
 {%- assign social = site.minima.social_links -%}
 {%- include latex.html -%}

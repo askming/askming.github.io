@@ -6,3 +6,4 @@ excerpt_separator: <!--more-->
 comments: true
 ---
 
+{%- include disque.html -%}
