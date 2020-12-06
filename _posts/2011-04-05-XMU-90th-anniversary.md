@@ -21,5 +21,3 @@ comments: true
 
 
 祝福厦大九十周年生日快乐，希望在百年校庆的时候可以有机会回到学校同老师、同窗共庆。
-
-{%- include disque.html -%}
