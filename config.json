@@ -1,10 +1,12 @@
 {
-    "title":"Life Magazine",
-    "displayTitle":"askming",
+    "title":"askming",
+    "displayTitle":"Life Magazine",
     "subTitle":"xxx",
-    "homeUrl":"askming.github.io",
+    "homeUrl":"",
     "avatarUrl":"https://meekdai.com/avatar.svg",
     "faviconUrl":"https://meekdai.com/favicon.svg",
-    "singlePage":[],
+    "singlePage":["about"],
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "nightTheme":"dark_colorblind",
     "GMEEK_VERSION":"last"
 }
