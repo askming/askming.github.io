@@ -1,1 +1,1 @@
-### Powered by [Gmeek](https://github.com/Meekdai/Gmeek)
+### Personal blog powered by [Gmeek](https://github.com/Meekdai/Gmeek)
