@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="xxx">
+    <link href="//cdn.staticfile.org/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/l6QU6e_2024_01_04.png">
+    <script>
+        if(localStorage.getItem("meek_theme")==null){}
+        else if(localStorage.getItem("meek_theme")=="dark"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="dark";}
+        else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
+    </script>
+    
+<title>个人学习体系(2022版)</title>
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<span class="postTitle">个人学习体系(2022版)</span>
+<div class="title-right">
+
+    <a href="http://askming.github.io"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd" d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"></path>
+        </svg>
+    </button></a>
+
+    <a href="https://github.com/askming/askming.github.io/issues/7" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+        </svg>
+    </button></a>
+
+    <button class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </button>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody">
+<p>从学生时代开始就一直都在不断摸索自己的学习体系。那时候的动机比较单纯，主要就是寻找合适的记录整理课程学习笔记的方法，以便日后查看复习。因为学习理科的关系，笔记里需要输入很多的数学公式，所以$\LaTeX$便成为了主力笔记工具。多年的学习生涯留下了无数的pdf文档散落在各家网盘文件夹里。</p>
+<p>开始工作之后，除了持续学习、更新专业知识以满足工作需求之外，出于自身兴趣和对个人成长的追求，接收信息的渠道、领域和数量都比以前有了数量级的增加：专业书籍期刊，各种教程，网络文字和各种工具资源……这些都是每天生活和工作中新知识的来源。学习内容的繁杂加上知识摄入途径的多样化让学生时代采用的单一的笔记方法和工具捉襟见肘，所以一直以来都在寻找和探索不同的方式和工具来支持自己的学习的动力并辅助提升学习的效果，最终目标当然是建立起属于自己的知识体系，而不是看过即忘。</p>
+<p>当然个人学习体系不仅仅只是信息获取途径和笔记记录工具这两个部分而已。它还应包括信息和笔记的存储方法以及如何便捷地实现个人知识库的检索(以便复习和回顾)。只有这四个环节都完备了体系才得以建立，而如何能让这四个环节流畅地整合在一起也是自己一直以来在摸索的过程。对于我来说，理想的个人学习体系应该具备以下四个基本要素：</p>
+<ol>
+<li>信息获取途径: 整个互联网$+$公共图书馆。信息爆炸的当代，我们最不缺的就是获取知识的渠道</li>
+<li>笔记工具: 轻便，多格式兼容，可扩展</li>
+<li>存储平台: 免费，安全，跨平台，便于迁移</li>
+<li>信息检索: 支持移动端，易于检索</li>
+</ol>
+<p>多年来对学习体系的尝试和改进一直都在持续进行着。伴随各种工具软件的迭代升级和新工具的出现，体系内的工具库和信息的摄入方法也会作出相应的更新和调整。目前个人学习体系大致可以用下图展示:</p>
+<p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0ef84f7dd7c865bddda9003deabd30953539290b72e83de7f06ee00ea3b44421/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f61736b6d696e672f75706963406d61737465722f755069632f53656c662d4275696c64696e67207570206b6e6f776c656467652073797374656d207769746820746f6f6c732d323032325f323032325f30325f31332e706e67"><img src="https://camo.githubusercontent.com/0ef84f7dd7c865bddda9003deabd30953539290b72e83de7f06ee00ea3b44421/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f61736b6d696e672f75706963406d61737465722f755069632f53656c662d4275696c64696e67207570206b6e6f776c656467652073797374656d207769746820746f6f6c732d323032325f323032325f30325f31332e706e67" data-canonical-src="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/Self-Building up knowledge system with tools-2022_2022_02_13.png" style="max-width: 100%;"></a></p>
+<ul>
+<li>知识输入主要包括了本专业的期刊，书籍和教程的阅读，非本专业的纸质或电子书籍阅读，以及平时上网时接触到的文章和碎片化信息(如推文)
+<ul>
+<li>专业期刊一般都有自己的RSS源，使用Zotera订阅，每周定期查看更新，并把感兴趣的收藏到当月文件夹下作为本月阅读清单</li>
+<li>Zotera下按照专业领域建立次级文件夹，分类归档参考文献和书籍，方便检索查看</li>
+<li>上网接触到的零碎文章和资源会推送到自建的Telegram频道，作为稍后阅读的仓库</li>
+<li>对于有价值的文章会用Chrome的SimRead插件保存至github仓库；阅读过程中的有用信息则通过chrome的hypothesis插件进行高亮标注</li>
+<li>非专业类书籍的阅读偏向纸质书。办理图书馆借书卡，一般的书都能方便借到</li>
+</ul>
+</li>
+<li>不论是专业阅读，兴趣阅读，还是网络零散信息的阅读，有价值的内容就会采用markdown格式建立相应的笔记文档
+<ul>
+<li>markdown的好处是轻便，兼容性强，且提供了文档编辑基本需求(如支持使用基于$\LaTeX$的公式)</li>
+<li>本地markdown工具目前用的是免费的Mark Text和VS Code</li>
+<li>网络端则直接使用github issues配合github actions将issue+comments转换为markdown文件进行保存或者发表</li>
+<li>Zotera上的文献数据(包括参考文献附件)通过坚果云提供的Web DAV进行免费存储；而其他所有的<code class="notranslate">.md</code>笔记文件都存在github上的不同仓库内</li>
+<li>目前已经基本放弃了各种网盘作为存储工具的选项。一来是因为大多数网盘只提供有限的免费空间，超过之后就得花钱扩容，而一旦花钱扩容就容易被绑定不利于迁移；二来网盘里的数据有丢失的风险；第三，网盘不便于配合其他工具一起使用(见下条)</li>
+<li>学习笔记，阅读笔记通过Jupyter Book将github仓库内的<code class="notranslate">.md</code>文档发布成网页格式，这样在移动端或者桌面端都能随时打开查看</li>
+</ul>
+</li>
+</ul>
+<p>这套个人学习体系是经年累月逐渐演变而来的，也是目前比较适合自己平时的工作和学习习惯的一套流程。可以肯定的是这套体系绝不会是最终版本，它也不会有终极版本。未来或许会有新的更适合的工具来取代旧工具，也会接触到新的学习方法，相应得工作流的调整也会顺其自然地发生。</p>
+<p>花时间思考和建立学习体系的最终目的是为了能更有效地进行持续学习，能让学习有所积淀并形成自己的知识体系，为饯行终身学习的理想提供持续的动力。</p>
+
+</div>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+</div>
+    <div id="footer">Copyright © <span id="year"></span><a href="http://askming.github.io"> askming </a>
+<p>
+<span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
+</p>
+
+<script>
+if(""!=""){
+    var now=new Date();
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("year").innerHTML=now.getFullYear();
+    if(""!=""){document.getElementById("runday").innerHTML=" • "+"网站运行"+diffDay+"天"+" • ";}
+    else{document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";}
+}
+</script>
+</div>
+</body>
+<script>
+var IconList={'post': 'M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25ZM3.5 6.25a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Zm.75 2.25h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5Z', 'link': 'm7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z', 'about': 'M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z', 'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'search': 'M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z', 'rss': 'M2.002 2.725a.75.75 0 0 1 .797-.699C8.79 2.42 13.58 7.21 13.974 13.201a.75.75 0 0 1-1.497.098 10.502 10.502 0 0 0-9.776-9.776.747.747 0 0 1-.7-.798ZM2.84 7.05h-.002a7.002 7.002 0 0 1 6.113 6.111.75.75 0 0 1-1.49.178 5.503 5.503 0 0 0-4.8-4.8.75.75 0 0 1 .179-1.489ZM2 13a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z', 'upload': 'M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z M11.78 4.72a.749.749 0 1 1-1.06 1.06L8.75 3.811V9.5a.75.75 0 0 1-1.5 0V3.811L5.28 5.78a.749.749 0 1 1-1.06-1.06l3.25-3.25a.749.749 0 0 1 1.06 0l3.25 3.25Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z'};
+var utterancesLoad=0;
+if(localStorage.getItem("meek_theme")==null){localStorage.setItem("meek_theme","light");changeLight();}
+else if(localStorage.getItem("meek_theme")=="dark"){changeDark();}
+else if(localStorage.getItem("meek_theme")=="light"){changeLight();}
+
+function changeDark(){
+    document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="dark";
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList["moon"]);
+    document.getElementById("themeSwitch").parentNode.style.color="#00f0ff";
+    if(utterancesLoad==1){utterancesTheme("dark-blue");}
+}
+function changeLight(){
+    document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList["sun"]);
+    document.getElementById("themeSwitch").parentNode.style.color="#ff5000";
+    if(utterancesLoad==1){utterancesTheme("github-light");}
+}
+function modeSwitch(){
+    if(document.getElementsByTagName("html")[0].attributes[0].value=="light"){changeDark();localStorage.setItem("meek_theme","dark");}
+    else{changeLight();localStorage.setItem("meek_theme","light");}
+}
+function utterancesTheme(theme){
+    const message = {type: 'set-theme',theme: theme};
+    const iframe = document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+}
+
+console.log("\n %c Gmeek last %c https://github.com/Meekdai/Gmeek \n\n", "color: #fff; background-image: linear-gradient(90deg, rgb(47, 172, 178) 0%, rgb(45, 190, 96) 100%); padding:5px 1px;", "background-image: linear-gradient(90deg, rgb(45, 190, 96) 0%, rgb(255, 255, 255) 100%); padding:5px 0;");
+</script>
+
+<script>
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","askming/askming.github.io");
+    script.setAttribute("issue-term","title");
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else{script.setAttribute("theme","github-light");}
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+</script>
+
+
+
+
+</html>
