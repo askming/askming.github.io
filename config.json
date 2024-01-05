@@ -7,7 +7,8 @@
     "faviconUrl":"https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/l6QU6e_2024_01_04.png",
     "email":"asking@gmail.com",
     "onePageListNum":10,
-    "singlePage":["about"],
+    "commentLabelColor":"#006b75",
+    "singlePage":["link", "about"],
     "nightTheme":"dark_colorblind",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "GMEEK_VERSION":"last"
