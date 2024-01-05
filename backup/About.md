@@ -1,8 +1,6 @@
-<!-- ##{“script”: "<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>"}##-->
-
 <!-- ##{"script":"<script>document.getElementById('user-content-busuanzi').id='busuanzi_container_site_uv';busuanzi=document.getElementById('busuanzi_container_site_uv');busuanzi.style.display='none';busuanzi.childNodes[1].id='busuanzi_value_site_uv';busuanzi.childNodes[3].id='busuanzi_value_site_pv';</script><script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>"}## -->
 
-<span id="busuanzi">欢迎本页第<span></span>位访友！</span>
+<span id="busuanzi">欢迎本页第<span></span>位访友！<span></span></span>
 
 生长于[浙江<ruby>丽<rt>lí</rt></ruby>水](https://en.wikipedia.org/wiki/Lishui)，先后在福建厦门和德州休斯顿求学，目前定居在加州旧金山湾区。从小立志当科学家，本科学了四年的[海洋生物学](https://en.wikipedia.org/wiki/Marine_biology)，科学家之梦也至此告终。后误打误撞地来到美帝，开启[生物统计学(biostatistics)](https://en.wikipedia.org/wiki/Biostatistics)的求学历程，学成之后以此为生。
 
