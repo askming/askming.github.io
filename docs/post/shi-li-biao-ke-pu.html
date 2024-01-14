@@ -89,7 +89,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>​ Figure 2. ETDRS chart (from Wikepedia)</p>
 <p>从上图可以看出，ETDRS表的设计和Snellen一样也是上大下小，不同的是ETDRS表每行都有五个字母，字母的大小从上至下成对数比例(logarithmically)递减。同样地，相邻两行之间的距离也遵循这个规律递减。表上的字母采用斯隆字体(Sloan font), 原因是斯隆字体不同字母的可辨度近乎一致。</p>
 <p>用ETDRS检测视力的结果有几种不同的表达方式。第一种是和Snellen类似的用20/X(或者6/X，如果单位是米的话)来表示。同样地，20/X可以转换为小数表达方式，即0.5, 1.0, 2.0等。此外，ETDRS的结果可以用LogMAR值来表示，表上每行的LogMAR值取该行小数数值的对数<strong>的负数</strong>，例如1.0的视力即为log(1.0) = 0. 由此类推，从上之下表的每行LogMAR值为1.0，0.9，0.8，0.7，..., 0, -0.1, -0.2, -0.3, 即间隔为0.1的等差数列，数值越大代表视力<strong>越差</strong> （和snellen表相反）。因此ETDRS表上的每相邻两行代表了(对数单位上的)0.1的视力差距，而每一行有5个字母组成，所以每多看清一个字母可以等价为0.1/5 = 0.02的视力增加。一个人的视力水平通过LogMAR来表示可以用下面的公式计算:</p>
-<p><math-renderer class="js-display-math" style="display: block" data-static-url="https://github.githubassets.com/static" data-run-id="ed469b44d08b71e34e7d34eebb267a38">$$
+<p><math-renderer class="js-display-math" style="display: block" data-static-url="https://github.githubassets.com/static" data-run-id="096d225250c72c0637583c7cbb508c16">$$
 \text{LogMAR} = \text{lowest LogMAR} + 0.02*(\text{number of letters can't see on current line})
 $$</math-renderer></p>
 <p>此外，在很多临床试验里更常见的是直接使用被检测者能够看清的字母数(number of letters)作为视力检测的结果。5个字母通常被认为具有临床意义上的显著差别，因为其对应了ETDRS表示的一行视力水平差距。</p>
