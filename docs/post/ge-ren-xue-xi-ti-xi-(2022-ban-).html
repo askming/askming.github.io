@@ -4,7 +4,6 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="xxx">
     <link href="//cdn.staticfile.org/Primer/21.0.7/primer.css" rel="stylesheet" />
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/l6QU6e_2024_01_04.png">
     <script>
@@ -13,6 +12,7 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
+<meta name="description" content="个人学习体系(2022版)">
 <title>个人学习体系(2022版)</title>
 
 
@@ -44,20 +44,22 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<span class="postTitle">个人学习体系(2022版)</span>
+<h1 class="postTitle">个人学习体系(2022版)</h1>
 <div class="title-right">
-
+    
     <a href="http://askming.github.io"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd" d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z"></path>
         </svg>
     </button></a>
 
+    
     <a href="https://github.com/askming/askming.github.io/issues/7" target="_blank"><button class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
         </svg>
     </button></a>
+    
 
     <button class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
         <svg class="octicon" width="16" height="16" >
@@ -68,12 +70,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody">
-<p>从学生时代开始就一直都在不断摸索自己的学习体系。那时候的动机比较单纯，主要就是寻找合适的记录整理课程学习笔记的方法，以便日后查看复习。因为学习理科的关系，笔记里需要输入很多的数学公式，所以$\LaTeX$便成为了主力笔记工具。多年的学习生涯留下了无数的pdf文档散落在各家网盘文件夹里。</p>
+<div class="markdown-body" id="postBody"><p>从学生时代开始就一直都在不断摸索自己的学习体系。那时候的动机比较单纯，主要就是寻找合适的记录整理课程学习笔记的方法，以便日后查看复习。因为学习理科的关系，笔记里需要输入很多的数学公式，所以$\LaTeX$便成为了主力笔记工具。多年的学习生涯留下了无数的pdf文档散落在各家网盘文件夹里。</p>
 <p>开始工作之后，除了持续学习、更新专业知识以满足工作需求之外，出于自身兴趣和对个人成长的追求，接收信息的渠道、领域和数量都比以前有了数量级的增加：专业书籍期刊，各种教程，网络文字和各种工具资源……这些都是每天生活和工作中新知识的来源。学习内容的繁杂加上知识摄入途径的多样化让学生时代采用的单一的笔记方法和工具捉襟见肘，所以一直以来都在寻找和探索不同的方式和工具来支持自己的学习的动力并辅助提升学习的效果，最终目标当然是建立起属于自己的知识体系，而不是看过即忘。</p>
 <p>当然个人学习体系不仅仅只是信息获取途径和笔记记录工具这两个部分而已。它还应包括信息和笔记的存储方法以及如何便捷地实现个人知识库的检索(以便复习和回顾)。只有这四个环节都完备了体系才得以建立，而如何能让这四个环节流畅地整合在一起也是自己一直以来在摸索的过程。对于我来说，理想的个人学习体系应该具备以下四个基本要素：</p>
 <ol>
-<li>信息获取途径: 整个互联网<math-renderer class="js-inline-math" style="display: inline" data-static-url="https://github.githubassets.com/static" data-run-id="b814e64f46c57ed2f9ee313b2e321334">$+$</math-renderer>公共图书馆。信息爆炸的当代，我们最不缺的就是获取知识的渠道</li>
+<li>信息获取途径: 整个互联网$+$公共图书馆。信息爆炸的当代，我们最不缺的就是获取知识的渠道</li>
 <li>笔记工具: 轻便，多格式兼容，可扩展</li>
 <li>存储平台: 免费，安全，跨平台，便于迁移</li>
 <li>信息检索: 支持移动端，易于检索</li>
@@ -92,7 +93,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </li>
 <li>不论是专业阅读，兴趣阅读，还是网络零散信息的阅读，有价值的内容就会采用markdown格式建立相应的笔记文档
 <ul>
-<li>markdown的好处是轻便，兼容性强，且提供了文档编辑基本需求(如支持使用基于<math-renderer class="js-inline-math" style="display: inline" data-static-url="https://github.githubassets.com/static" data-run-id="b814e64f46c57ed2f9ee313b2e321334">$\LaTeX$</math-renderer>的公式)</li>
+<li>markdown的好处是轻便，兼容性强，且提供了文档编辑基本需求(如支持使用基于$\LaTeX$的公式)</li>
 <li>本地markdown工具目前用的是免费的Mark Text和VS Code</li>
 <li>网络端则直接使用github issues配合github actions将issue+comments转换为markdown文件进行保存或者发表</li>
 <li>Zotera上的文献数据(包括参考文献附件)通过坚果云提供的Web DAV进行免费存储；而其他所有的<code class="notranslate">.md</code>笔记文件都存在github上的不同仓库内</li>
@@ -103,8 +104,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </ul>
 <p>这是目前比较适合自己平时的工作和学习习惯的一套流程, 但确定的是这套体系绝不会是最终版本。未来或许会有新的更适合的工具来取代旧工具，也会接触到新的学习方法，相应工作流的调整也会顺其自然地发生。</p>
 <p>花时间思考和建立学习体系的最终目的是为了能更有效地进行持续学习，能让学习有所积淀并形成自己的知识体系，为饯行终身学习的理念提供硬件支持。</p>
-
 </div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>
@@ -197,7 +198,7 @@ function iFrameLoading(){
 
 </script>
 
-
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
 </html>
