@@ -11,5 +11,6 @@
     "singlePage":["link", "about"],
     "nightTheme":"dark_colorblind",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "UTC":-8
 }
