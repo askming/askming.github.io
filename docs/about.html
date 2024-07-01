@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/l6QU6e_2024_01_04.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -73,8 +73,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>生长于<a href="https://en.wikipedia.org/wiki/Lishui" rel="nofollow">浙江<ruby>丽水<rt>lí Shuǐ</rt></ruby></a>，先后在福建厦门和德州休斯顿求学，目前定居在加州旧金山湾区。从小立志当科学家，本科学了四年的<a href="https://en.wikipedia.org/wiki/Marine_biology" rel="nofollow">海洋生物学</a>，科学家之梦也至此告终。后误打误撞地来到美帝，开启<a href="https://en.wikipedia.org/wiki/Biostatistics" rel="nofollow">生物统计学(biostatistics)</a>的求学历程，学成之后以此为生。</p>
 <p>喜静偏宅，业余<a href="https://askming.github.io/Personal-reading/intro.html" rel="nofollow">读读书</a>，看看🏀 。理想主义，交友被动。目标模糊，持续探索新爱好和知识中。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="http://askming.github.io"> askming </a>
 <p>
@@ -129,6 +131,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

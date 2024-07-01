@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/l6QU6e_2024_01_04.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -78,8 +78,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9a7b8118b5fb0cdcc6f32af5ab1cb9b8fe333356fa20c1cda9d6ed8b47b23c0a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f61736b6d696e672f75706963406d61737465722f755069632f57794a49686d5f323032325f30325f32362e6a7067"><img src="https://camo.githubusercontent.com/9a7b8118b5fb0cdcc6f32af5ab1cb9b8fe333356fa20c1cda9d6ed8b47b23c0a/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f61736b6d696e672f75706963406d61737465722f755069632f57794a49686d5f323032325f30325f32362e6a7067" width="100%" data-canonical-src="https://cdn.jsdelivr.net/gh/askming/upic@master/uPic/WyJIhm_2022_02_26.jpg" style="max-width: 100%;"></a></p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="http://askming.github.io"> askming </a>
 <p>
@@ -134,6 +136,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
